@@ -1,4 +1,4 @@
-Write-Host -ForegroundColor Green "Starting OSDCloud ZTI"
+Write-Host -ForegroundColor Green "Starting OSDCloud"
 Start-Sleep -Seconds 5
 
 #Make sure I have the latest OSD Content
