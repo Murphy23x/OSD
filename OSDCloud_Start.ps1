@@ -10,4 +10,4 @@ Import-Module OSD -Force
 
 #Start OSDCloudScriptPad
 Write-Host -ForegroundColor Green "Start OSDPad"
-Start-OSDPad -RepoOwner Murphy23x -RepoName OSDCloud -RepoFolder ScriptPad -BrandingTitle 'Murphy23x OSD Cloud Deployment'
+Start-OSDPad -RepoOwner Murphy23x -RepoName OSD -RepoFolder ScriptPad -BrandingTitle 'Murphy23x OSD Cloud Deployment'
