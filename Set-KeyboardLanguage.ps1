@@ -16,13 +16,13 @@ Start-Sleep -Seconds 5
 
 $LanguageList = Get-WinUserLanguageList
 
-$LanguageList.Add("de-CH")
+$LanguageList.Add("nl-NL")
 Set-WinUserLanguageList $LanguageList -Force
 
 Start-Sleep -Seconds 5
 
 $LanguageList = Get-WinUserLanguageList
-$LanguageList.Remove(($LanguageList | Where-Object LanguageTag -like 'de-DE'))
+$LanguageList.Remove(($LanguageList | Where-Object LanguageTag -like 'nl-NL'))
 Set-WinUserLanguageList $LanguageList -Force
 
 $LanguageList = Get-WinUserLanguageList
