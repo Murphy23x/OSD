@@ -1,7 +1,13 @@
 Set-ExecutionPolicy -ExecutionPolicy unrestricted
 
-Install-Module OSD -force
+Install-PackageProvider -Name NuGet -Force
 
-Import-Module OSD -force
+Install-Module -Name PowerShellGet -Force
+
+Update-Module -Name PowerShellGet
+
+Install-Module OSD -force -SkipPublisherCheck
+
+Import-Module OSD -force -SkipPublisherCheck
 
 Start-OSDCloudGUI
