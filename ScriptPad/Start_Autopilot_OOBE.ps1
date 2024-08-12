@@ -6,7 +6,7 @@ Install-Module -Name PowerShellGet -Force
 
 Update-Module -Name PowerShellGet
 
-Install-Module AutopilotOOBE -Force -skippublishercheck
+Install-Module AutopilotOOBE -Force -SkipPublisherCheck
 
 Import-Module AutopilotOOBE -Force
 
