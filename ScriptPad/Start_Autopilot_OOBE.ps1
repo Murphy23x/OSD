@@ -1,4 +1,4 @@
-Set-ExecutionPolicy RemoteSigned -Force
+Set-ExecutionPolicy unrestricted -Force
 
 Install-Module AutopilotOOBE -Force
 
