@@ -1,6 +1,12 @@
 Set-ExecutionPolicy unrestricted -Force
 
-Install-Module AutopilotOOBE -Force
+Install-PackageProvider -Name NuGet -Force
+
+Install-Module -Name PowerShellGet -Force
+
+Update-Module -Name PowerShellGet
+
+Install-Module AutopilotOOBE -Force -skippublishercheck
 
 Import-Module AutopilotOOBE -Force
 
